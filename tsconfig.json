@@ -5,15 +5,10 @@
     "suppressImplicitAnyIndexErrors": true,
     "strict": true,
     "module": "commonjs",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "target": "es2017",
-    "types": [
-      "node",
-      "./src/types"
-    ],
-    "outDir": "./dist"
+    "types": ["node", "./src/types"],
+    "outDir": "./dist",
+    "declaration": true
   }
 }
